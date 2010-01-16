@@ -7,11 +7,10 @@ import httplib
 import urlparse
 import urllib2
 import sys
-
-from optparse import OptionParser
-
+import optparse
 import threading
 
+from optparse import OptionParser
 from pprint import pprint
 
 g_options = None
@@ -30,7 +29,10 @@ def proxyCallback(option, optStr, value, parser):
     value = value.split(':', 1)
     port = 80
     if len(value) > 1:
-        port = int(value[1])
+        try:
+            port = int(value[1])
+        except ValueError:
+            raise optparse.OptionValueError("proxy port must be an integer value")
     setattr(parser.values, option.dest,(value[0], port,))
 
 g_parser.add_option(
