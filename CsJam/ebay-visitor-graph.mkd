@@ -1,0 +1,11 @@
+I thought this was fairly entertaining...
+
+I wrote a simple [page hit counter](http://bag-o-code.appspot.com/counter/start "Page Hit Counter") for a couple Ebay / Craigslist listing we were doing (using Google's [AppEngine](http://appspot.com "AppEngine"), and Yahoo's [YUI](http://developer.yahoo.com/yui/ "Yahoo YUI")).
+
+Recently I added a feature to allow it to graph visitor counts over time (basically a cheesy analytics engine).
+
+I guess one of the items was particularly desirable (a very complete, good codition SNES system with a lot of games) because it had what I image is probably a pretty typical graph of visits to an Ebay auction:
+
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_CeryDY5B7Rk/S1k3Gz-C2yI/AAAAAAAABmE/jiDFgKJJjFo/s1600-h/screen-capture.png"><img style="cursor:pointer; cursor:hand;width: 400px; height: 339px;" src="http://1.bp.blogspot.com/_CeryDY5B7Rk/S1k3Gz-C2yI/AAAAAAAABmE/jiDFgKJJjFo/s400/screen-capture.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5429431415941028642" /></a>
+
+It's pretty obvious that the spike (a huge spike) in visitors is when the auction was about to close when everyone was manically hitting reload.  Just eyeballing the graph, it looks like an exponential increase.
