@@ -1,28 +1,14 @@
-Visual Studio has a tool
-[[ERRLOOK](http://msdn.microsoft.com/en-us/library/akay62ya.aspx "Visual Studio
-ERRLOOK Utility")] which looks up explanations of error codes.  When you don't
-have the convenience of application code that automatically converts and
-reports this back to you it's nice to have.
+Visual Studio has a tool [[ERRLOOK](http://msdn.microsoft.com/en-us/library/akay62ya.aspx "Visual Studio ERRLOOK Utility")] which looks up explanations of error codes.  When you don't have the convenience of application code that automatically converts and reports this back to you it's nice to have.
 
-I don't know of a similiar utility on Linux (or other Unix variants), but I
-know the library calls exist to write it (at least for well known system error
-codes).
+I don't know of a similiar utility on Linux (or other Unix variants), but I know the library calls exist to write it (at least for well known system error codes).
 
-Below is my first pass at writing this utility for Linux / Mac OS X using
- [Python](http://python.org)'s
- [CTypes](http://docs.python.org/library/ctypes.html "CTypes Module").
+Below is my first pass at writing this utility for Linux / Mac OS X using [Python](http://python.org)'s [CTypes](http://docs.python.org/library/ctypes.html "CTypes Module").
 
 <script src="http://gist.github.com/286405.js?file=errnolookup.py"></script>
 
-The benifit of using python is that it doesn't need to be compiled (though this
- is a small benefit)&mdash; it's also an example of using CTypes to do
- [FFI](http://en.wikipedia.org/wiki/Foreign_function_interface "Wikipedia Entry
- for Foreign function interface").  Python also has the
- [errno](http://docs.python.org/library/errno.html "Python errno module") module
- which provides a mapping between a numeric error code and a symbolic name.
+The benifit of using python is that it doesn't need to be compiled (though this is a small benefit)&mdash; it's also an example of using CTypes to do [FFI](http://en.wikipedia.org/wiki/Foreign_function_interface "Wikipedia Entry for Foreign function interface").  Python also has the [errno](http://docs.python.org/library/errno.html "Python errno module") module which provides a mapping between a numeric error code and a symbolic name.
 
-The calls to load `libc.dylib` or `libc.so.1` might need to be tweaked
- depending on the system it's running on.
+The calls to load `libc.dylib` or `libc.so.1` might need to be tweaked depending on the system it's running on.
 
 Example output:
 
