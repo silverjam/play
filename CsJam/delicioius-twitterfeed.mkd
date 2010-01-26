@@ -1,8 +1,8 @@
 [TwitterFeed](http://twitterfeed.com "Twitter Feed, RSS to Social Network
-Publishing Service") is a really cool service.  Using Twitter feed you can push
-any [RSS](http://en.wikipedia.org/wiki/RSS "RSS on Wikipedia") feed to Twitter,
-which enables a super simple way to push pretty much any kind of syndicated
-data to Twitter (and now [Facebook](http://facebook.com),
+ Publishing Service") is a really cool service.  Using Twitter feed you can push
+ any [RSS](http://en.wikipedia.org/wiki/RSS "RSS on Wikipedia") feed to Twitter,
+ which enables a super simple way to push pretty much any kind of syndicated
+ data to Twitter (and now [Facebook](http://facebook.com),
  [Laconica](http://laconi.ca), and [HelloTxt](http://hellotxt.com/)).
 
 [I](http://del.icio.us/jmob "My del.icio.us account") also use
