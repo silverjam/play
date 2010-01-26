@@ -66,8 +66,4 @@ The rest is point and shoot with the TwitterFeed set-up process.  Now, only
  bookmarks recorded on del.icio.us with the *tweet-this* tag will show up on
  Twitter.
 
-<div class="source">[<a
-
-href="http://github.com/silverjam/play/raw/master/CsJam/delicioius-twitterfeed.mkd"
-
->Source</a> for this post in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> mark-up]</div>
+<div class="source">[<a href="http://github.com/silverjam/play/raw/master/CsJam/delicioius-twitterfeed.mkd">Source</a> for this post in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> mark-up]</div>
