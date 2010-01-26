@@ -36,11 +36,7 @@ You can also visit the tag's webpage and select the *RSS feed* button next to
  the [URL](http://en.wikipedia.org/wiki/Uniform_Resource_Locator "URL on
  Wikipedia") bar (then record new link in the URL bar):
 
-<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"
-href="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pah06X9BI/AAAAAAAABmM/5_YTmOQpkKA/s1600-h/screen-capture-1-1.png"><img
-style="cursor:pointer; cursor:hand;width: 355px; height: 29px;"
-src="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pah06X9BI/AAAAAAAABmM/5_YTmOQpkKA/s400/screen-capture-1-1.png"
-border="0" alt=""id="BLOGGER_PHOTO_ID_5429751837934220306" /></a>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pah06X9BI/AAAAAAAABmM/5_YTmOQpkKA/s1600-h/screen-capture-1-1.png"><img style="cursor:pointer; cursor:hand;width: 355px; height: 29px;" src="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pah06X9BI/AAAAAAAABmM/5_YTmOQpkKA/s400/screen-capture-1-1.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5429751837934220306" /></a>
 
 I selected the tag name *tweet-this* for this set-up.
 
@@ -48,19 +44,11 @@ The next step is to visit [TwitterFeed](http://twitterfeed.com) and get set-up
  with an account.  Once you've got your account you'll be at a *Feed Dashboard*,
  select *Create a New Feed* and enter the previously recorded URL:
 
-<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"
-href="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pc5dmFPkI/AAAAAAAABms/Fd8bGw5y_nU/s1600-h/screen-capture-2.png"><img
-style="cursor:pointer; cursor:hand;width: 176px; height: 47px;"
-src="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pc5dmFPkI/AAAAAAAABms/Fd8bGw5y_nU/s400/screen-capture-2.png"
-border="0" alt=""id="BLOGGER_PHOTO_ID_5429754443015208514" /></a>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pc5dmFPkI/AAAAAAAABms/Fd8bGw5y_nU/s1600-h/screen-capture-2.png"><img style="cursor:pointer; cursor:hand;width: 176px; height: 47px;" src="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pc5dmFPkI/AAAAAAAABms/Fd8bGw5y_nU/s400/screen-capture-2.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5429754443015208514" /></a>
 
 Select *test rss feed* to make sure everything is working.  
 
-<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"
-href="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pc50z32YI/AAAAAAAABm0/8frz_NCEcC8/s1600-h/screen-capture-3.png"><img
-style="cursor:pointer; cursor:hand;width: 400px; height: 105px;"
-src="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pc50z32YI/AAAAAAAABm0/8frz_NCEcC8/s400/screen-capture-3.png"
-border="0" alt=""id="BLOGGER_PHOTO_ID_5429754449247066498" /></a>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pc50z32YI/AAAAAAAABm0/8frz_NCEcC8/s1600-h/screen-capture-3.png"><img style="cursor:pointer; cursor:hand;width: 400px; height: 105px;" src="http://3.bp.blogspot.com/_CeryDY5B7Rk/S1pc50z32YI/AAAAAAAABm0/8frz_NCEcC8/s400/screen-capture-3.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5429754449247066498" /></a>
 
 The rest is point and shoot with the TwitterFeed set-up process.  Now, only
  bookmarks recorded on del.icio.us with the *tweet-this* tag will show up on

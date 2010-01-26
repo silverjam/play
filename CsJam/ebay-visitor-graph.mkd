@@ -12,11 +12,7 @@ I guess one of the items was particularly desirable (a very complete, good
  codition SNES system with a lot of games) because it had what I image is
  probably a pretty typical graph of visits to an Ebay auction:
 
-<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}"
-href="http://1.bp.blogspot.com/_CeryDY5B7Rk/S1k3Gz-C2yI/AAAAAAAABmE/jiDFgKJJjFo/s1600-h/screen-capture.png"><img
-style="cursor:pointer; cursor:hand;width: 400px; height: 339px;"
-src="http://1.bp.blogspot.com/_CeryDY5B7Rk/S1k3Gz-C2yI/AAAAAAAABmE/jiDFgKJJjFo/s400/screen-capture.png"
-border="0" alt=""id="BLOGGER_PHOTO_ID_5429431415941028642" /></a>
+<a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_CeryDY5B7Rk/S1k3Gz-C2yI/AAAAAAAABmE/jiDFgKJJjFo/s1600-h/screen-capture.png"><img style="cursor:pointer; cursor:hand;width: 400px; height: 339px;" src="http://1.bp.blogspot.com/_CeryDY5B7Rk/S1k3Gz-C2yI/AAAAAAAABmE/jiDFgKJJjFo/s400/screen-capture.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5429431415941028642" /></a> 
 
 It's pretty obvious that the spike (a huge spike) in visitors is when the
  auction was about to close when everyone was manically hitting reload.  Just
