@@ -9,21 +9,23 @@ know the library calls exist to write it (at least for well known system error
 codes).
 
 Below is my first pass at writing this utility for Linux / Mac OS X using
-[Python](http://python.org)'s
-[CTypes](http://docs.python.org/library/ctypes.html "CTypes Module").
+ [Python](http://python.org)'s
+ [CTypes](http://docs.python.org/library/ctypes.html "CTypes Module").
 
 <script src="http://gist.github.com/286405.js?file=errnolookup.py"></script>
 
 The benifit of using python is that it doesn't need to be compiled (though this
-is a small benefit)&mdash; it's also an example of using CTypes to do
-[FFI](http://en.wikipedia.org/wiki/Foreign_function_interface "Wikipedia Entry
-for Foreign function interface").  Python also has the
-[errno](http://docs.python.org/library/errno.html "Python errno module") module
-which provides a mapping between a numeric error code and a symbolic name.
+ is a small benefit)&mdash; it's also an example of using CTypes to do
+ [FFI](http://en.wikipedia.org/wiki/Foreign_function_interface "Wikipedia Entry
+ for Foreign function interface").  Python also has the
+ [errno](http://docs.python.org/library/errno.html "Python errno module") module
+ which provides a mapping between a numeric error code and a symbolic name.
 
 The calls to load `libc.dylib` or `libc.so.1` might need to be tweaked
-depending on the system it's running on.
+ depending on the system it's running on.
 
 Example output:
 
 <script src="http://gist.github.com/286405.js?file=example.txt"></script>
+
+<div class="source">[<a href="http://github.com/silverjam/play/raw/master/CsJam/simple-errno-lookup.mkd">Source</a> for this post in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> mark-up]</div>

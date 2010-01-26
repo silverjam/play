@@ -21,3 +21,9 @@ border="0" alt=""id="BLOGGER_PHOTO_ID_5429431415941028642" /></a>
 It's pretty obvious that the spike (a huge spike) in visitors is when the
  auction was about to close when everyone was manically hitting reload.  Just
  eyeballing the graph, it looks like an exponential increase.
+
+<div class="source">[<a
+
+href="http://github.com/silverjam/play/raw/master/CsJam/ebay-visitor-graph.mkd"
+
+>Source</a> for this post in <a href="http://daringfireball.net/projects/markdown/">Markdown</a> mark-up]</div>
