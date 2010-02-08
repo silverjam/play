@@ -15,6 +15,12 @@ However, this way seems pretty simple, and literally automates what the user wou
 
 <script src="http://gist.github.com/293787.js"></script>
 
-There are several interesting things happening.
+There are several interesting things happening.  First is that pressing `PRINTSCREEN` pretty much causes windows to dump a BMP blob in to the clipboard.  You can retreive that by asking for the [`CF_DIB` format](http://msdn.microsoft.com/en-us/library/ms649013%28VS.85%29.aspx) from the clipboard.
 
-+ Explain those things
+This dumps the V3 format of [`BMP` file format](http://en.wikipedia.org/wiki/BMP_file_format "BMP on Wikipedia")-- which features 54 byte header.  You'll notice in the recepie the header is sliced at 54 byte marker, splitting up the header and the pixel data.
+
+This leads to the use of the [`GDI+`](http://msdn.microsoft.com/en-us/library/ms533798%28VS.85%29.aspx).  `GDI+` is basically the drawing API for Windows.  The problem with using `GDI+` through Python witout any kind of wrapper is that `GDI+` is a C++ API.  Luckily, `GDI+` offers a "flat" API, which exports the `GDI+` functionality through a [flat C API](http://msdn.microsoft.com/en-us/library/ms533969%28VS.85%29.aspx).  There are several code listing of the [flat API](http://source.winehq.org/source/include/gdiplusflat.h) online.
+
+
+
+
