@@ -4,7 +4,7 @@ A simple screen shot utility in Python.  Basically automates the following tasks
 + Copying the data out of the clipboard
 + Using GDI+ to save the data as a JPEG file
 
-There are less hacky ways to do this.  I think usually you'd use [PrintWindow](http://msdn.microsoft.com/en-us/library/dd162869(VS.85).aspx "PrintWindow on MSDN") to write the window contents to an in-memory [device context](http://en.wikipedia.org/wiki/Graphics_Device_Interface "Device Context on Wikipedia") (DC).
+There are less hacky ways to do this.  I think usually you'd use [PrintWindow](http://msdn.microsoft.com/en-us/library/dd162869%28VS.85%29.aspx "PrintWindow on MSDN") to write the window contents to an in-memory [device context](http://en.wikipedia.org/wiki/Graphics_Device_Interface "Device Context on Wikipedia") (DC).
 
 However, this way seems pretty simple, and literally automates what the user would do.  Would would be something like:
 
